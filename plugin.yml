@@ -1,0 +1,8 @@
+name: Shallow clone
+description: Set git-clone and git-fetch
+requirements: ['git']
+configuration:
+  properties:
+    depth:
+      type: number
+  additionalProperties: false
