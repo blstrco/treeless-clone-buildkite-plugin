@@ -2,6 +2,6 @@ version: '2'
 services:
   lint:
     image: buildkite/plugin-linter
-    command: ['--id', 'peakon/git-shallow-clone']
+    command: ['--id', 'blstrco/treeless-clone']
     volumes:
       - ".:/plugin:ro"
