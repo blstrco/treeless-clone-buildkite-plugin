@@ -1,4 +1,4 @@
-name: Shallow clone
+name: Treeless clone
 description: Set git-clone and git-fetch
 requirements: ['git']
 configuration:
